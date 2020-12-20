@@ -9,15 +9,10 @@ TrophyHunterElkStack/Diagrams/Elk Stack Network Diagram.jpg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select playbook files may be used to install only certain pieces of it, such as Filebeat.
 
+
 TrophyHunterElkStack/Scripts/TrophyHunt.yml
 TrophyHunterElkStack/Scripts/filebeat-play.yml
 TrophyHunterElkStack/Scipts/metricbeat.yml
-
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select playbook files may be used to install only certain pieces of it, such as Filebeat.
-
-TrophyHunterElkStack/Scripts/TrophyHunt.yml
-TrophyHunterElkStack/Scripts/filebeat-play.yml
-TrophyHunterElkStack/Scipts/metricbeat-play.yml
 
 
 This document contains the following details:
