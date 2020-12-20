@@ -5,23 +5,20 @@ A completely configured Elk server setup for use with Filebeat and Metricbeat.
 
 The files in this repository were used to configure the network depicted below.
 
-<<<<<<< HEAD
-C:\Users\joehk\Documents\CSB Downloadables\README\README\Images
+TrophyHunterElkStack/Diagrams/Elk Stack Network Diagram.jpg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select playbook files may be used to install only certain pieces of it, such as Filebeat.
 
 TrophyHunterElkStack/Scripts/TrophyHunt.yml 
 TrophyHunterElkStack/Scripts/filebeat-play.yml 
 TrophyHunterElkStack/Scipts/metricbeat.yml
-=======
-TrophyHunterElkStack/Diagrams/Elk Stack Network Diagram.jpg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select playbook files may be used to install only certain pieces of it, such as Filebeat.
 
 TrophyHunterElkStack/Scripts/TrophyHunt.yml
 TrophyHunterElkStack/Scripts/filebeat-play.yml
 TrophyHunterElkStack/Scipts/metricbeat-play.yml
->>>>>>> fa5a5128d7677c5d852f1727bdb4c4c989ac56f4
+
 
 This document contains the following details:
 - Description of the Topology
@@ -38,9 +35,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 
-
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
-
 
 The configuration details of each machine may be found below.
 
@@ -85,11 +80,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-<<<<<<< HEAD
 TrophyHunterElkStack/Diagrams/Elk Container Confirmation.png
-=======
-TrophyHunterElkStack/Diagrams/Elk Container Confirmation
->>>>>>> fa5a5128d7677c5d852f1727bdb4c4c989ac56f4
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
